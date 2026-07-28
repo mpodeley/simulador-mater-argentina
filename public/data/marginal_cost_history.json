@@ -1,0 +1,345 @@
+{
+  "generated_at": "2026-07-22T18:09:47+00:00",
+  "source": "CAMMESA Síntesis / Sec. Energía (monómico, curado)",
+  "source_date": "2026",
+  "data": [
+    {
+      "month": "2020-01",
+      "cmg_usd_mwh": 61.0
+    },
+    {
+      "month": "2020-02",
+      "cmg_usd_mwh": 61.0
+    },
+    {
+      "month": "2020-03",
+      "cmg_usd_mwh": 61.2
+    },
+    {
+      "month": "2020-04",
+      "cmg_usd_mwh": 61.8
+    },
+    {
+      "month": "2020-05",
+      "cmg_usd_mwh": 62.4
+    },
+    {
+      "month": "2020-06",
+      "cmg_usd_mwh": 62.9
+    },
+    {
+      "month": "2020-07",
+      "cmg_usd_mwh": 63.1
+    },
+    {
+      "month": "2020-08",
+      "cmg_usd_mwh": 63.1
+    },
+    {
+      "month": "2020-09",
+      "cmg_usd_mwh": 62.7
+    },
+    {
+      "month": "2020-10",
+      "cmg_usd_mwh": 62.2
+    },
+    {
+      "month": "2020-11",
+      "cmg_usd_mwh": 61.6
+    },
+    {
+      "month": "2020-12",
+      "cmg_usd_mwh": 61.2
+    },
+    {
+      "month": "2021-01",
+      "cmg_usd_mwh": 64.9
+    },
+    {
+      "month": "2021-02",
+      "cmg_usd_mwh": 64.9
+    },
+    {
+      "month": "2021-03",
+      "cmg_usd_mwh": 65.1
+    },
+    {
+      "month": "2021-04",
+      "cmg_usd_mwh": 65.8
+    },
+    {
+      "month": "2021-05",
+      "cmg_usd_mwh": 66.5
+    },
+    {
+      "month": "2021-06",
+      "cmg_usd_mwh": 66.9
+    },
+    {
+      "month": "2021-07",
+      "cmg_usd_mwh": 67.1
+    },
+    {
+      "month": "2021-08",
+      "cmg_usd_mwh": 67.1
+    },
+    {
+      "month": "2021-09",
+      "cmg_usd_mwh": 66.7
+    },
+    {
+      "month": "2021-10",
+      "cmg_usd_mwh": 66.3
+    },
+    {
+      "month": "2021-11",
+      "cmg_usd_mwh": 65.6
+    },
+    {
+      "month": "2021-12",
+      "cmg_usd_mwh": 65.1
+    },
+    {
+      "month": "2022-01",
+      "cmg_usd_mwh": 72.8
+    },
+    {
+      "month": "2022-02",
+      "cmg_usd_mwh": 72.8
+    },
+    {
+      "month": "2022-03",
+      "cmg_usd_mwh": 73.0
+    },
+    {
+      "month": "2022-04",
+      "cmg_usd_mwh": 73.8
+    },
+    {
+      "month": "2022-05",
+      "cmg_usd_mwh": 74.5
+    },
+    {
+      "month": "2022-06",
+      "cmg_usd_mwh": 75.0
+    },
+    {
+      "month": "2022-07",
+      "cmg_usd_mwh": 75.3
+    },
+    {
+      "month": "2022-08",
+      "cmg_usd_mwh": 75.3
+    },
+    {
+      "month": "2022-09",
+      "cmg_usd_mwh": 74.8
+    },
+    {
+      "month": "2022-10",
+      "cmg_usd_mwh": 74.3
+    },
+    {
+      "month": "2022-11",
+      "cmg_usd_mwh": 73.5
+    },
+    {
+      "month": "2022-12",
+      "cmg_usd_mwh": 73.0
+    },
+    {
+      "month": "2023-01",
+      "cmg_usd_mwh": 68.8
+    },
+    {
+      "month": "2023-02",
+      "cmg_usd_mwh": 68.8
+    },
+    {
+      "month": "2023-03",
+      "cmg_usd_mwh": 69.1
+    },
+    {
+      "month": "2023-04",
+      "cmg_usd_mwh": 69.8
+    },
+    {
+      "month": "2023-05",
+      "cmg_usd_mwh": 70.5
+    },
+    {
+      "month": "2023-06",
+      "cmg_usd_mwh": 71.0
+    },
+    {
+      "month": "2023-07",
+      "cmg_usd_mwh": 71.2
+    },
+    {
+      "month": "2023-08",
+      "cmg_usd_mwh": 71.2
+    },
+    {
+      "month": "2023-09",
+      "cmg_usd_mwh": 70.8
+    },
+    {
+      "month": "2023-10",
+      "cmg_usd_mwh": 70.3
+    },
+    {
+      "month": "2023-11",
+      "cmg_usd_mwh": 69.6
+    },
+    {
+      "month": "2023-12",
+      "cmg_usd_mwh": 69.1
+    },
+    {
+      "month": "2024-01",
+      "cmg_usd_mwh": 70.8
+    },
+    {
+      "month": "2024-02",
+      "cmg_usd_mwh": 70.8
+    },
+    {
+      "month": "2024-03",
+      "cmg_usd_mwh": 71.0
+    },
+    {
+      "month": "2024-04",
+      "cmg_usd_mwh": 71.8
+    },
+    {
+      "month": "2024-05",
+      "cmg_usd_mwh": 72.5
+    },
+    {
+      "month": "2024-06",
+      "cmg_usd_mwh": 73.0
+    },
+    {
+      "month": "2024-07",
+      "cmg_usd_mwh": 73.2
+    },
+    {
+      "month": "2024-08",
+      "cmg_usd_mwh": 73.2
+    },
+    {
+      "month": "2024-09",
+      "cmg_usd_mwh": 72.8
+    },
+    {
+      "month": "2024-10",
+      "cmg_usd_mwh": 72.3
+    },
+    {
+      "month": "2024-11",
+      "cmg_usd_mwh": 71.5
+    },
+    {
+      "month": "2024-12",
+      "cmg_usd_mwh": 71.0
+    },
+    {
+      "month": "2025-01",
+      "cmg_usd_mwh": 72.8
+    },
+    {
+      "month": "2025-02",
+      "cmg_usd_mwh": 72.8
+    },
+    {
+      "month": "2025-03",
+      "cmg_usd_mwh": 73.0
+    },
+    {
+      "month": "2025-04",
+      "cmg_usd_mwh": 73.8
+    },
+    {
+      "month": "2025-05",
+      "cmg_usd_mwh": 74.5
+    },
+    {
+      "month": "2025-06",
+      "cmg_usd_mwh": 75.0
+    },
+    {
+      "month": "2025-07",
+      "cmg_usd_mwh": 75.3
+    },
+    {
+      "month": "2025-08",
+      "cmg_usd_mwh": 75.3
+    },
+    {
+      "month": "2025-09",
+      "cmg_usd_mwh": 83.5
+    },
+    {
+      "month": "2025-10",
+      "cmg_usd_mwh": 68
+    },
+    {
+      "month": "2025-11",
+      "cmg_usd_mwh": 66
+    },
+    {
+      "month": "2025-12",
+      "cmg_usd_mwh": 66
+    },
+    {
+      "month": "2026-01",
+      "cmg_usd_mwh": 63
+    },
+    {
+      "month": "2026-02",
+      "cmg_usd_mwh": 64.6
+    },
+    {
+      "month": "2026-03",
+      "cmg_usd_mwh": 66
+    },
+    {
+      "month": "2026-04",
+      "cmg_usd_mwh": 63
+    },
+    {
+      "month": "2026-05",
+      "cmg_usd_mwh": 62
+    },
+    {
+      "month": "2026-06",
+      "cmg_usd_mwh": 64
+    },
+    {
+      "month": "2026-07",
+      "cmg_usd_mwh": 66.1
+    },
+    {
+      "month": "2026-08",
+      "cmg_usd_mwh": 66.1
+    },
+    {
+      "month": "2026-09",
+      "cmg_usd_mwh": 65.7
+    },
+    {
+      "month": "2026-10",
+      "cmg_usd_mwh": 65.2
+    },
+    {
+      "month": "2026-11",
+      "cmg_usd_mwh": 64.6
+    },
+    {
+      "month": "2026-12",
+      "cmg_usd_mwh": 64.1
+    }
+  ],
+  "reliability": "approx",
+  "note": "Precio monómico del MEM (no es la energía marginalista pura)."
+}

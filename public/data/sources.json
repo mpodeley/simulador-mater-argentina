@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-07-22T18:09:47+00:00",
+  "source": "Inventario de fuentes",
+  "source_date": "2026",
+  "data": [
+    {
+      "id": "cammesa_demanda",
+      "name": "CAMMESA — demanda-svc (demanda + generación por tecnología, por región)",
+      "url": "https://api.cammesa.com/demanda-svc/demanda/RegionesDemanda",
+      "note": "JSON en tiempo real, CORS abierto (GET). Cableado real vía pipeline.",
+      "reliability": "verified",
+      "cors": "live"
+    },
+    {
+      "id": "cammesa_sintesis",
+      "name": "CAMMESA — Síntesis / Informe Mensual",
+      "url": "https://cammesaweb.cammesa.com/informes-sintesis-mensual/",
+      "note": "Costo marginal, monómico, precios, por-central, embalses (Excel/PDF/PowerBI). Sin CORS → pipeline (Fase 5).",
+      "reliability": "verified",
+      "cors": "preprocess"
+    },
+    {
+      "id": "cammesa_mater",
+      "name": "CAMMESA — Resultados MATER (prioridad de despacho)",
+      "url": "https://cammesaweb.cammesa.com/mater-resultado-asignacion-prioridad-despacho/",
+      "note": "MW asignados y prioridad por nodo (PDF/PowerBI). Pipeline (Fase 5).",
+      "reliability": "verified",
+      "cors": "preprocess"
+    },
+    {
+      "id": "se_renovar",
+      "name": "Secretaría de Energía — Precios RenovAr",
+      "url": "http://www.minem.gob.ar/www/833/25871/precios-adjudicados-del-programa-renovar",
+      "note": "Precios adjudicados R1/R1.5/R2/R3. Histórico (one-off).",
+      "reliability": "verified",
+      "cors": "preprocess"
+    },
+    {
+      "id": "cammesa_curtail",
+      "name": "CAMMESA — Informe de Generación Renovable Variable (curtailment)",
+      "url": "https://cammesaweb.cammesa.com/informe-sintesis-mensual/",
+      "note": "Vertimiento/recorte mensual de renovables (PDF/Excel). Pipeline (Fase 5).",
+      "reliability": "verified",
+      "cors": "preprocess"
+    },
+    {
+      "id": "dolarapi",
+      "name": "dolarapi.com — USD/ARS",
+      "url": "https://dolarapi.com/v1/dolares",
+      "note": "Oficial/blue/MEP/CCL/mayorista, JSON, CORS abierto. Fetch en vivo.",
+      "reliability": "verified",
+      "cors": "live"
+    },
+    {
+      "id": "bcra",
+      "name": "BCRA — Estadísticas Cambiarias",
+      "url": "https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones/USD",
+      "note": "Cotización oficial/mayorista, JSON, CORS abierto.",
+      "reliability": "verified",
+      "cors": "live"
+    },
+    {
+      "id": "nasa_power",
+      "name": "NASA POWER API",
+      "url": "https://power.larc.nasa.gov/docs/services/api/",
+      "note": "Irradiancia/viento por punto. CORS abierto (GET). Perfiles solar/eólico.",
+      "reliability": "verified",
+      "cors": "live"
+    },
+    {
+      "id": "boletin",
+      "name": "Boletín Oficial — Res. SE (PEST, monómico, Res. 400/2025)",
+      "url": "https://www.boletinoficial.gob.ar",
+      "note": "Precios estacionales y reglas del MEM (PDF). Pipeline/manual.",
+      "reliability": "verified",
+      "cors": "preprocess"
+    }
+  ],
+  "reliability": "verified"
+}

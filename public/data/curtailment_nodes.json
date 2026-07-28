@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-07-22T18:09:47+00:00",
+  "source": "CAMMESA / análisis de congestión (curado)",
+  "source_date": "2026",
+  "data": [
+    {
+      "id": "cuyo",
+      "region": "Cuyo (Mendoza/San Juan)",
+      "tech": "solar",
+      "curtailmentPct": 14,
+      "note": "Región más afectada 2026 (65% del recorte total)"
+    },
+    {
+      "id": "noa",
+      "region": "NOA (Jujuy/Salta)",
+      "tech": "solar",
+      "curtailmentPct": 10,
+      "note": "Corredor NOA saturado"
+    },
+    {
+      "id": "patagonia",
+      "region": "Patagonia (Chubut/Santa Cruz)",
+      "tech": "wind",
+      "curtailmentPct": 8,
+      "note": "Líder de recorte 2023-25; transmisión limitada"
+    },
+    {
+      "id": "comahue",
+      "region": "Comahue (Neuquén/Río Negro)",
+      "tech": "wind",
+      "curtailmentPct": 6,
+      "note": "Nodo con hidro; congestión media"
+    },
+    {
+      "id": "pba",
+      "region": "Buenos Aires (centro/sur)",
+      "tech": "wind",
+      "curtailmentPct": 4,
+      "note": "Más cerca de la demanda"
+    },
+    {
+      "id": "litoral",
+      "region": "Litoral (Santa Fe/Entre Ríos)",
+      "tech": "solar",
+      "curtailmentPct": 3,
+      "note": "Buen acceso a demanda"
+    }
+  ],
+  "reliability": "approx",
+  "note": "Recorte esperado por región. Confirmar con Informe de Generación Renovable Variable."
+}

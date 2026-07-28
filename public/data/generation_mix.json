@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-07-22T18:09:47+00:00",
+  "source": "CAMMESA (curado)",
+  "source_date": "2025",
+  "data": [
+    {
+      "month": "2025-01",
+      "hydro": 3028.0,
+      "nuclear": 900,
+      "gas": 5263.0,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    },
+    {
+      "month": "2025-02",
+      "hydro": 3028.0,
+      "nuclear": 900,
+      "gas": 5263.0,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    },
+    {
+      "month": "2025-03",
+      "hydro": 2948.9,
+      "nuclear": 900,
+      "gas": 5454.5,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    },
+    {
+      "month": "2025-04",
+      "hydro": 2685.5,
+      "nuclear": 900,
+      "gas": 6092.7,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    },
+    {
+      "month": "2025-05",
+      "hydro": 2422.2,
+      "nuclear": 900,
+      "gas": 6730.9,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    },
+    {
+      "month": "2025-06",
+      "hydro": 2238.1,
+      "nuclear": 900,
+      "gas": 7177.0,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    },
+    {
+      "month": "2025-07",
+      "hydro": 2159.0,
+      "nuclear": 900,
+      "gas": 7368.5,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    },
+    {
+      "month": "2025-08",
+      "hydro": 2159.0,
+      "nuclear": 900,
+      "gas": 7368.5,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    },
+    {
+      "month": "2025-09",
+      "hydro": 2316.9,
+      "nuclear": 900,
+      "gas": 6986.1,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    },
+    {
+      "month": "2025-10",
+      "hydro": 2501.2,
+      "nuclear": 900,
+      "gas": 6539.4,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    },
+    {
+      "month": "2025-11",
+      "hydro": 2764.6,
+      "nuclear": 900,
+      "gas": 5901.2,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    },
+    {
+      "month": "2025-12",
+      "hydro": 2948.9,
+      "nuclear": 900,
+      "gas": 5454.5,
+      "wind": 1150,
+      "solar": 330,
+      "biomass": 60,
+      "other": 60
+    }
+  ],
+  "reliability": "approx"
+}

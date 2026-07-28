@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-22T18:09:47+00:00",
+  "source": "Referencia USD/ARS (fallback; live vía dolarapi)",
+  "source_date": "2026",
+  "data": {
+    "oficial": 1350,
+    "mayorista": 1330,
+    "blue": 1400,
+    "mep": 1385,
+    "ccl": 1410,
+    "as_of": "2026-07"
+  },
+  "reliability": "approx"
+}

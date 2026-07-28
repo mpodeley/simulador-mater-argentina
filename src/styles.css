@@ -1,0 +1,65 @@
+:root {
+  color-scheme: dark;
+  --bg: #0f172a;
+  --surface: #1e293b;
+  --border: #334155;
+  --text: #f1f5f9;
+  --muted: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a {
+  color: #3b82f6;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text);
+  margin: 0 0 0.5em;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Range sliders: consistent look across pages. */
+input[type='range'] {
+  width: 100%;
+  accent-color: #3b82f6;
+  cursor: pointer;
+}
+
+input[type='number'],
+select {
+  background: #0f172a;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-family: inherit;
+  font-size: 13px;
+}
+
+.recharts-default-tooltip {
+  border-radius: 8px !important;
+}

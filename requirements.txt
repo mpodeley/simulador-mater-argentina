@@ -1,0 +1,5 @@
+# Data pipeline (v1). Fetchers use only the Python standard library (urllib):
+#   fetch_nasa_power.py       — NASA POWER solar/wind profiles (AR nodes)
+#   fetch_cammesa_demanda.py  — CAMMESA demanda-svc live SADI snapshot
+# Fase 5 (Síntesis Mensual / MATER / curtailment) will add:
+#   requests, openpyxl, pdfplumber, xlrd, msoffcrypto-tool
