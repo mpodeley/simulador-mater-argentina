@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-07-22T18:09:47+00:00",
+  "source": "Secretaría de Energía — RenovAr",
+  "source_date": "2019",
+  "data": [
+    {
+      "name": "RenovAr R1",
+      "year": 2016,
+      "awardedMW": 1142,
+      "periodo": "20 años",
+      "priceUSDMWh": 61.3,
+      "note": "wind <70, solar ~76",
+      "reliability": "verified"
+    },
+    {
+      "name": "RenovAr R1.5",
+      "year": 2016,
+      "awardedMW": 1281,
+      "periodo": "20 años",
+      "priceUSDMWh": 54.0,
+      "note": "10 eólicos + 20 solares",
+      "reliability": "verified"
+    },
+    {
+      "name": "RenovAr R2",
+      "year": 2017,
+      "awardedMW": 2043,
+      "periodo": "20 años",
+      "priceUSDMWh": 51.5,
+      "note": "solar min 40.4, eólica min 37",
+      "reliability": "verified"
+    },
+    {
+      "name": "RenovAr R3 (MiniRen)",
+      "year": 2019,
+      "awardedMW": 97,
+      "periodo": "20 años",
+      "priceUSDMWh": 57.6,
+      "note": "min 54.2",
+      "reliability": "verified"
+    }
+  ],
+  "reliability": "verified",
+  "note": "Programa dormido desde 2019; referencia histórica."
+}

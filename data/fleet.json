@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-07-22T18:09:47+00:00",
+  "source": "CAMMESA / Secretaría de Energía (curado)",
+  "source_date": "2025",
+  "data": [
+    {
+      "id": "hydro",
+      "name": "Hidroeléctrica (Comahue/Yacyretá/Salto Grande)",
+      "tech": "hydro",
+      "capacityMW": 10000,
+      "varCostUSDMWh": 4.0,
+      "mustRunFraction": 0.3
+    },
+    {
+      "id": "nuclear",
+      "name": "Nuclear (Atucha I/II, Embalse)",
+      "tech": "nuclear",
+      "capacityMW": 1760,
+      "varCostUSDMWh": 8.0,
+      "mustRunFraction": 0.9
+    },
+    {
+      "id": "gas_ccgt",
+      "name": "Gas ciclo combinado",
+      "tech": "gas_ccgt",
+      "capacityMW": 11000,
+      "varCostUSDMWh": 3.0,
+      "heatRateMMBtuMWh": 7.0
+    },
+    {
+      "id": "gas_ocgt",
+      "name": "Gas ciclo abierto / turbovapor",
+      "tech": "gas_ocgt",
+      "capacityMW": 9500,
+      "varCostUSDMWh": 4.0,
+      "heatRateMMBtuMWh": 10.5
+    },
+    {
+      "id": "coal",
+      "name": "Carbón (Río Turbio)",
+      "tech": "coal",
+      "capacityMW": 400,
+      "varCostUSDMWh": 55.0
+    },
+    {
+      "id": "biomass",
+      "name": "Biomasa / bioenergía",
+      "tech": "biomass",
+      "capacityMW": 300,
+      "varCostUSDMWh": 45.0,
+      "mustRunFraction": 0.4
+    },
+    {
+      "id": "diesel",
+      "name": "Diésel / fueloil (respaldo)",
+      "tech": "diesel",
+      "capacityMW": 2500,
+      "varCostUSDMWh": 190.0
+    },
+    {
+      "id": "wind",
+      "name": "Eólica (Patagonia/BA)",
+      "tech": "wind",
+      "capacityMW": 4700,
+      "varCostUSDMWh": 0.0
+    },
+    {
+      "id": "solar",
+      "name": "Solar FV (Cuyo/NOA)",
+      "tech": "solar",
+      "capacityMW": 1700,
+      "varCostUSDMWh": 0.0
+    }
+  ],
+  "reliability": "approx",
+  "note": "Parque SADI agregado por tecnología (~42 GW)."
+}

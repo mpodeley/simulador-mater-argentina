@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-22T18:09:51+00:00",
+  "source": "CAMMESA demanda-svc (en vivo)",
+  "source_date": "2026-07-22",
+  "data": {
+    "as_of": "2026-07-22T15:00:00.000-0300",
+    "demand_mw": 20429,
+    "temp_c": 14.0,
+    "total_mw": 20434,
+    "mix_mw": {
+      "hidraulico": 5540,
+      "termico": 9142,
+      "nuclear": 1414,
+      "renovable": 2936,
+      "importacion": 1402
+    }
+  },
+  "reliability": "verified"
+}
