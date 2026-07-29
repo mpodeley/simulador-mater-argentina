@@ -1,5 +1,5 @@
 // Design tokens for the simulator. Ported from the sibling energy dashboards
-// (estado-del-sistema / gasoductos) to keep one visual language across the
+// (estado-red-gas / gasoductos) to keep one visual language across the
 // user's projects. Reference these from component style objects — no inline hex.
 
 export const colors = {

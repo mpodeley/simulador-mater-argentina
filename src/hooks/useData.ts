@@ -19,7 +19,7 @@ import type {
 /**
  * Loads a JSON file from ./data/ and unwraps the {generated_at, source,
  * source_date, data} envelope produced by the Python seed script. Payloads
- * without an envelope are returned as-is. Ported from estado-del-sistema.
+ * without an envelope are returned as-is. Ported from estado-red-gas.
  */
 export function useJson<T>(path: string): FetchState<T> {
   const [state, setState] = useState<FetchState<T>>({

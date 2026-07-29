@@ -7,7 +7,7 @@ modela el **costo marginal** por orden de mérito y evalúa qué precio conviene
 App estática (React + TypeScript + Vite) pensada para **GitHub Pages**. Sin backend: los datos son
 JSON curados en `public/data/`, y el motor de despacho + Monte Carlo corre en el browser.
 
-Repo hermano de `estado-del-sistema` / `gasoductos` — mismo stack y convenciones.
+Repo hermano de `estado-red-gas` / `gasoductos` — mismo stack y convenciones.
 
 ## Comandos
 

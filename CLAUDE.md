@@ -7,7 +7,7 @@ Guidance for Claude Code when working in this repo.
 Static **PPA bid-price simulator** for the Argentine wholesale electricity market (SADI/MEM), deployed to
 GitHub Pages. Helps a renewable generator decide **what price to offer in a MATER PPA** to a Gran Usuario.
 No backend: curated JSON in `public/data/`, and a pure-TypeScript engine (merit-order dispatch + Monte Carlo)
-runs in the browser. Cloned from `simulador-subastas-peru`; sibling of `estado-del-sistema` (whose CAMMESA
+runs in the browser. Cloned from `simulador-subastas-peru`; sibling of `estado-red-gas` (whose CAMMESA
 fetchers this repo reuses). Same stack (Vite + React 19 + TS + Recharts, `base: "./"`). UI Spanish; code English.
 
 Live (once deployed): https://mpodeley.github.io/simulador-mater-argentina/
@@ -44,7 +44,7 @@ Live (once deployed): https://mpodeley.github.io/simulador-mater-argentina/
 v1 = curated seed + real overlays reusing CAMMESA. Real (best-effort): CAMMESA `demanda-svc` (demand +
 generation-by-technology by region, CORS-open JSON, GET only), NASA POWER (AR solar/wind nodes), FX (dolarapi).
 Pipeline-only (Fase 5): costo marginal/monómico (Síntesis Mensual), MATER results, curtailment report.
-Reuse `estado-del-sistema/scripts/{fetch_cammesa_ppo,fetch_cammesa,parse_cammesa,fetch_weather,fetch_megsa}.py`.
+Reuse `estado-red-gas/scripts/{fetch_cammesa_ppo,fetch_cammesa,parse_cammesa,fetch_weather,fetch_megsa}.py`.
 
 ## Time granularity
 
