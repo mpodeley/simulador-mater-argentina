@@ -1,0 +1,56 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main, master]
+  schedule:
+    - cron: '0 8 * * *' # 05:00 America/Argentina/Buenos_Aires (UTC-3) — daily data refresh
+  workflow_dispatch:
+
+permissions:
+  contents: write # peaceiris pushes the build to the gh-pages branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      # Validate the engine against the committed (deterministic) seed BEFORE
+      # refreshing data, so tests never flake on live-data drift.
+      - name: Type check
+        run: npm run typecheck
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # Fresh data (best-effort): fetchers fall back to the curated seed if a
+      # source is down/blocked, so this step does not break the deploy.
+      - name: Run data pipeline
+        run: python scripts/build_data.py
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
